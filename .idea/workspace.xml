@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c23462d-fabb-4399-a15b-06bf07a9d5e6" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql_house" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql_house" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/tools/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\tools\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jAe5mNByR01yYMinpWak0BXLoi" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602985003332" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/house/test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\webapp\WEB-INF\js" />
+      <recent name="D:\IDEA-WorkSpace\house_zzq\src\main\java\com\house\dto" />
+      <recent name="D:\IDEA-WorkSpace\house_zzq\src\main\java\com\house\controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\java\com\house\test" />
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\resources\static\img" />
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\resources\templates\file" />
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\resources\templates" />
+      <recent name="C:\Users\Tim.Li\Desktop\code\house-project-master\house_zzq\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.house.config" />
+      <recent name="com.house.common" />
+      <recent name="com.house.controller" />
+      <recent name="com.house.dao" />
+      <recent name="com.house.pojo" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.house.configAop" />
+      <recent name="com.house.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HouseApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Controller1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.house.controller.Controller1" />
+      <module name="house_zzq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.house.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HtmlController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.house.controller.HtmlController" />
+      <module name="house_zzq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.house.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResponseAop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.house.common.ResponseAop" />
+      <module name="house_zzq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.house.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.house.controller.TeachController" />
+      <module name="house_zzq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.house.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.house.controller.UserController" />
+      <module name="house_zzq" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.house.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HouseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="house_zzq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.house.HouseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TeachController" />
+      <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.HtmlController" />
+      <item itemvalue="Application.ResponseAop" />
+      <item itemvalue="Application.Controller1" />
+      <item itemvalue="Spring Boot.HouseApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Controller1" />
+        <item itemvalue="Application.ResponseAop" />
+        <item itemvalue="Application.HtmlController" />
+        <item itemvalue="Application.TeachController" />
+        <item itemvalue="Application.UserController" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c23462d-fabb-4399-a15b-06bf07a9d5e6" name="Default" comment="" />
+      <created>1554305092754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554305092754</updated>
+      <workItem from="1554305094019" duration="8956000" />
+      <workItem from="1554389902641" duration="8200000" />
+      <workItem from="1554422243179" duration="10519000" />
+      <workItem from="1554434340257" duration="9772000" />
+      <workItem from="1554455246481" duration="166000" />
+      <workItem from="1554455428396" duration="3028000" />
+      <workItem from="1554478167365" duration="1553000" />
+      <workItem from="1554520026691" duration="4927000" />
+      <workItem from="1554986718611" duration="5554000" />
+      <workItem from="1555083281880" duration="690000" />
+      <workItem from="1555084025813" duration="1392000" />
+      <workItem from="1555085606032" duration="2630000" />
+      <workItem from="1555171380272" duration="2365000" />
+      <workItem from="1555213195777" duration="439000" />
+      <workItem from="1555330994165" duration="4800000" />
+      <workItem from="1555417188757" duration="1199000" />
+      <workItem from="1555502158009" duration="4436000" />
+      <workItem from="1555514341381" duration="131000" />
+      <workItem from="1602981606683" duration="3159000" />
+      <workItem from="1603251146493" duration="703000" />
+      <workItem from="1603251949669" duration="612000" />
+      <workItem from="1603254959957" duration="46655000" />
+      <workItem from="1603612514752" duration="2137000" />
+      <workItem from="1603618903535" duration="711000" />
+      <workItem from="1603619836844" duration="7958000" />
+      <workItem from="1603701542446" duration="311000" />
+      <workItem from="1603703290124" duration="2447000" />
+      <workItem from="1604544835823" duration="1449000" />
+      <workItem from="1604546295403" duration="11069000" />
+      <workItem from="1604645509090" duration="11778000" />
+      <workItem from="1604658892431" duration="67000" />
+      <workItem from="1604904020150" duration="3132000" />
+      <workItem from="1605065277001" duration="1141000" />
+      <workItem from="1605077145576" duration="3456000" />
+      <workItem from="1605091094147" duration="1253000" />
+      <workItem from="1605233982513" duration="2997000" />
+      <workItem from="1605252348158" duration="7856000" />
+      <workItem from="1605490894081" duration="27884000" />
+      <workItem from="1605598079660" duration="4058000" />
+      <workItem from="1605836430028" duration="7111000" />
+      <workItem from="1606114464067" duration="2831000" />
+      <workItem from="1606121307384" duration="3005000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1603618998905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1603618998905" />
+    <state x="552" y="177" key="#SQL_Dialects" timestamp="1603367190805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#SQL_Dialects/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603367190805" />
+    <state x="552" y="177" key="#Template_Data_Languages" timestamp="1603678548272">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Template_Data_Languages/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603678548272" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603370054630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603370054630" />
+    <state x="631" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603683604859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603683604859" />
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1605253461326">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605253461326" />
+    <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603277460357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603277460357" />
+    <state width="874" height="466" key="DebuggerActiveHint" timestamp="1605599712873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="874" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605599712873" />
+    <state x="862" y="169" key="FileChooserDialogImpl" timestamp="1604566007693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="613" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603631908416" />
+    <state x="862" y="169" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604566007693" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603640363054" />
+    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603640363054" />
+    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603640363054" />
+    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.1.center" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.1.left" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.1.right" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.2.bottom" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.2.center" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.2.left" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state width="1877" height="260" key="GridCell.Tab.2.right" timestamp="1606124317301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1603640363055" />
+    <state width="1877" height="260" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606124317301" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1605235323535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="313" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603631933854" />
+    <state x="440" y="93" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605235323535" />
+    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1604904078275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604904078275" />
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1603619838887">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1603619838887" />
+    <state x="506" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605236048853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="506" y="255" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605236048853" />
+    <state x="690" y="282" key="extract.method.dialog" timestamp="1603264979899">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="282" key="extract.method.dialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603264979899" />
+    <state x="557" y="218" width="806" height="604" key="find.popup" timestamp="1606123474426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="218" width="806" height="604" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606123474426" />
+    <state x="334" y="220" key="new project wizard" timestamp="1605841535127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="220" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605841535127" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603356362584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1603356362584" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../weekly_parent/weekly_base/src/main/java/com/weekly/controller/UserController.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../weekly_parent/weekly_base/src/main/java/com/weekly/controller/UserController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/house/service/PaidService.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/house/service/PaidService.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/house/service/PaidService.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/house/service/PaidService.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/house/service/UserService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.house.dao.UserTimeMapper">
+  <resultMap id="BaseResultMap" type="com.house.pojo.UserTime">
+    <!--@mbg.generated-->
+    <!--@Table user_time-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_course _id" jdbcType="INTEGER" property="userCourseId" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, `user_course _id`, `date`
+  </sql>
+</mapper>

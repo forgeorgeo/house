@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.house.dao.UserCourseMapper">
+  <resultMap id="BaseResultMap" type="com.house.pojo.UserCourse">
+    <!--@mbg.generated-->
+    <!--@Table user_course-->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="course_id" jdbcType="INTEGER" property="courseId" />
+    <result column="hour" jdbcType="INTEGER" property="hour" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, user_id, course_id, `hour`
+  </sql>
+
+  <select id="getCourseInfos" resultType="com.house.pojo.CourseInfo">
+      SELECT CI.* from user_course UC, course_info CI  where UC.course_id = CI.id and UC.user_id = #{userId}
+  </select>
+
+  <select id="getWorkHours" resultType="com.house.vo.WorkLoadVO">
+      SELECT
+      C.course_name as courseName,
+      A.hour as courseHours,
+      B.date as courseDate
+      from user_course A ,user_time B , course_info C
+      where A.user_id = B.user_id and A.course_id = B.user_course_id  and C.id = A.course_id
+      <if test="userId != null and userId != ''">
+          and A.user_id = #{userId}
+      </if>
+      <if test="courseId != null and courseId != ''">
+          and  A.course_id = #{courseId}
+      </if>
+  </select>
+
+
+  <update id="updateWorkHours" parameterType="com.house.vo.WorkLoadVO">
+		update user_course
+		<set>
+        <if test="courseHours != null and courseHours != ''">
+          hour = #{courseHours}
+        </if>
+		</set>
+		where
+        <if test="userId != null and userId != ''">
+          user_id = #{userId}
+        </if>
+        <if test="courseId != null and courseId != ''">
+          and course_id = #{courseId}
+        </if>
+	</update>
+
+	  <update id="updateDateById" parameterType="com.house.vo.WorkLoadVO">
+      update user_time
+      <set>
+          <if test="courseDate != null and courseDate != ''">
+            date = #{courseDate}
+          </if>
+      </set>
+      where user_id = #{userId}  and user_course_id = #{courseId}
+    </update>
+
+    <select id="getAllCourses" resultType="com.house.vo.WorkLoadVO">
+        SELECT
+        A.user_id as userId,
+        B.id as courseId,
+        B.course_name as courseName,
+        B.course_info as courseInfo,
+        A.hour as courseHours
+        from  user_course A, course_info B
+        where B.id = A.course_id
+    </select>
+
+    <update id="updateCoursesInfoByCourseId" parameterType="com.house.vo.WorkLoadVO">
+      update course_info
+      <set>
+          <if test="courseName != null and courseName != ''">
+            course_name = #{courseName}
+          </if>
+          <if test="courseInfo != null and courseInfo != ''">
+            course_info = #{courseInfo}
+          </if>
+      </set>
+      where id = #{courseId}
+    </update>
+
+    <insert id="insertUserCoursesInfo" parameterType="com.house.vo.WorkLoadVO">
+        insert into user_course (user_id,course_id,hour) values (#{userId}, #{courseId}, #{courseHours})
+    </insert>
+
+    <insert id="insertCourseInfo">
+        insert into course_info (id, course_name, course_info) values (#{courseId}, #{courseName}, #{courseInfo})
+    </insert>
+
+    <delete id="deteleCoursesInfo">
+        delete FROM course_info where id = #{courseId}
+    </delete>
+
+    <select id="getTeacherWorkLoadByuserIdAndCourseId" resultMap="BaseResultMap">
+        select * from user_course where course_id = #{courseId} and user_id = #{userId}
+    </select>
+
+    <delete id="deleteTeacherWorkLoad">
+        delete FROM user_course where course_id = #{courseId} and user_id = #{userId}
+    </delete>
+
+
+
+</mapper>

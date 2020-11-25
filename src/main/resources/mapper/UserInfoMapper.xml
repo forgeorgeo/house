@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.house.dao.UserInfoMapper">
+
+  <resultMap id="BaseResultMap" type="com.house.pojo.UserInfo">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="pwd" jdbcType="VARCHAR" property="pwd" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_number" jdbcType="VARCHAR" property="userNumber" />
+    <result column="user_college" jdbcType="VARCHAR" property="userCollege" />
+    <result column="user_age" jdbcType="VARCHAR" property="userAge" />
+    <result column="user_tel" jdbcType="VARCHAR" property="userTel" />
+    <result column="user_sex" jdbcType="VARCHAR" property="userSex" />
+    <result column="user_email" jdbcType="VARCHAR" property="userEmail" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+  </resultMap>
+
+  <select id="loginSystemByPdw" resultMap="BaseResultMap">
+      SELECT * from user_info where user_id = #{userId} and pwd = #{password}
+  </select>
+
+  	<update id="updateUserInfo" parameterType="com.house.pojo.UserInfo">
+		update user_info
+		<set>
+        <if test="userName != null and userName != ''">
+          user_name = #{userName},
+        </if>
+        <if test="userNumber != null and userNumber != ''">
+          user_number = #{userNumber},
+        </if>
+        <if test="userCollege != null and userCollege != ''">
+          user_college = #{userCollege},
+        </if>
+        <if test="userAge != null and userAge != ''">
+          user_age = #{userAge},
+        </if>
+        <if test="userTel != null and userTel != ''">
+          user_tel = #{userTel},
+        </if>
+        <if test="userSex != null and userSex != ''">
+          user_sex = #{userSex},
+        </if>
+        <if test="userEmail != null and userEmail != ''">
+          user_email = #{userEmail}
+        </if>
+		</set>
+		where user_id = #{userId}
+	</update>
+
+  <update id="updateUserPwd" parameterType="com.house.pojo.UserInfo">
+		update user_info
+		<set>
+        <if test="pwd != null and pwd != ''">
+          pwd = #{pwd}
+        </if>
+		</set>
+		where user_id = #{userId}
+	</update>
+
+
+	 <select id="getCourseHourByTimeOrId" parameterType="com.house.vo.CourseQueryVO" resultType="com.house.vo.WorkLoadVO">
+      SELECT
+      B.course_name as courseName,
+      C.date as courseDate,
+      A.hour as courseHours
+      from user_course A, course_info B, user_time C
+      where A.course_id = B.id and B.id = C.user_course_id
+      and A.user_id = #{userId}
+      <if test="courseName != null and courseName != ''">
+        and B.course_name LIKE '%${courseName}%'
+      </if>
+      <if test="startDate != null and startDate != ''">
+       <![CDATA[
+        and C.date >= #{startDate}
+         ]]>
+      </if>
+       <if test="endDate != null and endDate != ''">
+       <![CDATA[
+        and C.date <= #{endDate}
+          ]]>
+      </if>
+  </select>
+
+    <select id="getAllUser" resultMap="BaseResultMap">
+        SELECT * from user_info where type = 0
+    </select>
+
+    <insert id="insertTeacherInfo">
+        INSERT into user_info (pwd,user_name,user_number,user_college,user_age,user_tel,user_sex,user_email,type)
+        values (#{pwd},#{userName},#{userNumber},#{userCollege},#{userAge},#{userTel},#{userSex},#{userEmail}, #{type})
+    </insert>
+
+    <delete id="deteleTeacherInfoByUserId">
+        delete FROM user_info where user_id = #{userId}
+    </delete>
+
+    <select id="getTeacherInfoByName" resultType="com.house.vo.WorkLoadVO">
+        select
+        A.user_id as userId,
+        A.user_name as userName,
+        B.hour as courseHours,
+        C.id as courseId,
+        C.course_name as courseName
+        from user_info A, user_course B, course_info C
+        where A.user_id = B.user_id
+        and B.course_id = C.id
+        <if test="userName != '' and userName != null">
+           and A.user_name = #{userName}
+        </if>
+    </select>
+
+</mapper>
